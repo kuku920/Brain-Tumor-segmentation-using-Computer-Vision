@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import sys
 
 # === Step 1: Load the MRI image ===
-image_path = 'main1.jpg'  # Replace with your MRI scan image path
+image_path = 'healthy brain.jpg'  # Replace with your MRI scan image path
 image = cv2.imread(image_path)
 if image is None:
     print(f"Error: Could not load image from '{image_path}'.")
